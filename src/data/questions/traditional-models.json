@@ -1,0 +1,473 @@
+[
+  {
+    "id": "traditional-models-001",
+    "topic": "traditional-models",
+    "subtopic": "Modelo en espiral",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Quién definió el modelo en espiral y qué elemento introdujo respecto a los modelos lineales anteriores?",
+    "options": [
+      { "id": "a", "text": "Boehm, en 1988; introdujo el análisis de riesgo como guía de la evolución del desarrollo" },
+      { "id": "b", "text": "Royce, en 1970; introdujo los flujos de retorno entre fases" },
+      { "id": "c", "text": "Sutherland, en los años 90; introdujo los sprints como ciclos de trabajo" },
+      { "id": "d", "text": "Rational Software; introdujo el desarrollo dirigido por casos de uso" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El modelo en espiral fue definido por Boehm en 1988. Presenta un desarrollo evolutivo e introduce el «análisis de riesgo» para guiar la evolución del proceso, organizado en cuatro cuadrantes: planificación, análisis de riesgo, ingeniería y evaluación.",
+    "sourcePage": 25,
+    "tags": ["modelos-tradicionales", "espiral", "boehm"]
+  },
+  {
+    "id": "traditional-models-002",
+    "topic": "traditional-models",
+    "subtopic": "Flexibilidad del modelo en espiral: distinción con incremental",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Un equipo desarrolla su sistema dividiéndolo en varios subsistemas, cada uno con su propio ciclo de análisis, diseño, codificación y pruebas, entregando funcionalidad parcial de forma progresiva. Según la distinción que hace el tema sobre la flexibilidad del modelo en espiral, ¿qué ciclo de vida se está siguiendo?",
+    "options": [
+      { "id": "a", "text": "Ciclo de vida incremental, porque se desarrollan partes del sistema global" },
+      { "id": "b", "text": "Modelo en cascada, porque cada ciclo sigue una fase de forma secuencial" },
+      { "id": "c", "text": "Modelo en espiral puro, porque se evalúa el riesgo en cada subsistema" },
+      { "id": "d", "text": "Proceso Unificado, porque se organiza en fases con iteraciones" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala que, dentro de la flexibilidad del modelo en espiral, si se desarrollan partes del sistema global se opta por un ciclo de vida incremental; si se sigue una fase de cascada secuencialmente se está en un modelo en cascada; y si se da un pequeño paso evaluando y planificando el siguiente con análisis de riesgos, se sigue un modelo en espiral.",
+    "sourcePage": 26,
+    "tags": ["modelos-tradicionales", "espiral", "incremental", "distincion"]
+  },
+  {
+    "id": "traditional-models-003",
+    "topic": "traditional-models",
+    "subtopic": "Riesgos del prototipado",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de los siguientes son riesgos asociados al modelo de prototipado señalados en el tema?",
+    "options": [
+      { "id": "a", "text": "El cliente puede pensar que gran parte del trabajo está hecho debido a un interfaz sofisticado" },
+      { "id": "b", "text": "Los prototipos operativos pueden crecer fuera de la planificación, consumiendo más recursos" },
+      { "id": "c", "text": "El prototipo puede parecer más funcional que el sistema final debido a diferencias en entornos o funcionalidades incompletas" },
+      { "id": "d", "text": "El análisis de riesgo guía la evolución del proceso de desarrollo" },
+      { "id": "e", "text": "Reconoce la importancia de requisitos y diseño previos antes de la codificación" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "El tema identifica como riesgos del prototipado que el cliente puede creer que el trabajo está más avanzado por un interfaz sofisticado, que los prototipos operativos pueden crecer sin control consumiendo recursos, y que el prototipo puede parecer más funcional que el sistema final. El análisis de riesgo es propio del modelo en espiral, y la importancia de requisitos y diseño previos es una característica del modelo en cascada.",
+    "sourcePage": 30,
+    "tags": ["modelos-tradicionales", "prototipado", "riesgos"]
+  },
+  {
+    "id": "traditional-models-004",
+    "topic": "traditional-models",
+    "subtopic": "Listado de modelos tradicionales",
+    "difficulty": "easy",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de los siguientes son modelos tradicionales de desarrollo de software según el tema?",
+    "options": [
+      { "id": "a", "text": "Cascada" },
+      { "id": "b", "text": "Espiral" },
+      { "id": "c", "text": "Scrum" },
+      { "id": "d", "text": "Incremental" },
+      { "id": "e", "text": "Kanban" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "El tema enumera como modelos tradicionales: lineal o secuencial, cascada, espiral, incremental, evolutivo, prototipado y concurrencia. Scrum y Kanban son metodologías ágiles, no modelos tradicionales.",
+    "sourcePage": 18,
+    "tags": ["modelos-tradicionales", "listado"]
+  },
+  {
+    "id": "traditional-models-005",
+    "topic": "traditional-models",
+    "subtopic": "Etapas del modelo lineal o secuencial",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál es el orden de las etapas del modelo lineal o secuencial según el tema?",
+    "options": [
+      { "id": "a", "text": "Requisitos, diseño, codificación, pruebas, integración y, finalmente, operación y mantenimiento" },
+      { "id": "b", "text": "Requisitos, codificación, diseño, pruebas, integración y operación y mantenimiento" },
+      { "id": "c", "text": "Planificación, análisis de riesgo, ingeniería y evaluación" },
+      { "id": "d", "text": "Inicio, elaboración, construcción y transición" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El modelo lineal o secuencial se desarrolla en las etapas sucesivas de requisitos, diseño, codificación, pruebas e integración, completándose cada una antes de pasar a la siguiente, hasta llegar a operación y mantenimiento. Las opciones c y d corresponden respectivamente a los cuadrantes del modelo en espiral y a las fases del Proceso Unificado.",
+    "sourcePage": 19,
+    "tags": ["modelos-tradicionales", "lineal", "etapas"]
+  },
+  {
+    "id": "traditional-models-006",
+    "topic": "traditional-models",
+    "subtopic": "Problema práctico del modelo lineal",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál es el principal problema práctico señalado en el tema respecto al modelo lineal o secuencial?",
+    "options": [
+      { "id": "a", "text": "Es difícil obtener requisitos o diseños completos desde el inicio, lo que impide avanzar, ya que cada fase depende completamente del resultado de la anterior" },
+      { "id": "b", "text": "Requiere muchos más recursos económicos que cualquier otro modelo" },
+      { "id": "c", "text": "No permite documentar el software en ningún momento del proceso" },
+      { "id": "d", "text": "Obliga a repetir indefinidamente la fase de pruebas hasta encontrar cero errores" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica que el modelo lineal es rígido (cada fase depende completamente del resultado anterior) y que, en la práctica, es difícil obtener requisitos o diseños completos desde el inicio, lo que impide avanzar.",
+    "sourcePage": 20,
+    "tags": ["modelos-tradicionales", "lineal", "rigidez"]
+  },
+  {
+    "id": "traditional-models-007",
+    "topic": "traditional-models",
+    "subtopic": "Casos de aplicación del modelo lineal",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Para qué tipo de proyectos es apropiado el modelo lineal o secuencial, según el tema?",
+    "options": [
+      { "id": "a", "text": "Nuevas versiones de sistemas con requisitos y entorno conocidos, o sistemas pequeños sin evolución a corto plazo" },
+      { "id": "b", "text": "Proyectos con requisitos que cambian constantemente durante el desarrollo" },
+      { "id": "c", "text": "Grandes sistemas distribuidos en constante evolución" },
+      { "id": "d", "text": "Proyectos en los que el cliente desconoce completamente sus necesidades iniciales" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala que el modelo lineal es apropiado para nuevas versiones de sistemas con requisitos y entorno conocidos, y para sistemas pequeños sin evolución a corto plazo.",
+    "sourcePage": 20,
+    "tags": ["modelos-tradicionales", "lineal", "aplicacion"]
+  },
+  {
+    "id": "traditional-models-008",
+    "topic": "traditional-models",
+    "subtopic": "Lineal frente a cascada",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál es la diferencia clave entre el modelo lineal o secuencial y el modelo en cascada, según el tema?",
+    "options": [
+      { "id": "a", "text": "El modelo en cascada, definido por Royce en 1970, introduce flujos de retorno hacia fases anteriores, mientras que el modelo lineal es puramente secuencial sin esos retornos" },
+      { "id": "b", "text": "El modelo lineal permite retroceder a cualquier fase, mientras que la cascada no permite ningún retorno" },
+      { "id": "c", "text": "Son exactamente el mismo modelo con dos nombres distintos, sin ninguna diferencia entre ellos" },
+      { "id": "d", "text": "La cascada fue propuesta por Boehm, mientras que el modelo lineal fue propuesto por Royce" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El modelo en cascada, definido por Royce en 1970, introduce flujos de retorno sobre el modelo secuencial para reflejar la necesidad de volver a fases anteriores con información nueva; el modelo lineal, en cambio, no incorpora esos retornos.",
+    "sourcePage": 23,
+    "tags": ["modelos-tradicionales", "lineal", "cascada", "distincion"]
+  },
+  {
+    "id": "traditional-models-009",
+    "topic": "traditional-models",
+    "subtopic": "Representaciones del modelo en cascada",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "El tema señala dos representaciones comunes del modelo en cascada según el alcance de sus flujos de retorno. ¿Cuáles son?",
+    "options": [
+      { "id": "a", "text": "Una en la que el retorno es solo a la fase inmediatamente anterior, y otra en la que se puede retornar a cualquier fase" },
+      { "id": "b", "text": "Una en la que no existe ningún tipo de retorno, y otra en la que el retorno es obligatorio en cada fase" },
+      { "id": "c", "text": "Una versión pensada para proyectos pequeños y otra para proyectos grandes" },
+      { "id": "d", "text": "Una versión ágil y otra versión tradicional del mismo modelo" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica que hay dos representaciones comunes del modelo en cascada: una en la que se indica retorno solo a la fase anterior, y otra que muestra que se puede retornar a cualquier fase.",
+    "sourcePage": 23,
+    "tags": ["modelos-tradicionales", "cascada", "representaciones"]
+  },
+  {
+    "id": "traditional-models-010",
+    "topic": "traditional-models",
+    "subtopic": "Popularidad del modelo en cascada",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el tema, ¿por qué el modelo en cascada no es muy popular en la práctica?",
+    "options": [
+      { "id": "a", "text": "Por la tentación de comenzar el diseño o la codificación sin conocer bien los requisitos" },
+      { "id": "b", "text": "Porque requiere herramientas de software muy costosas que pocas empresas pueden permitirse" },
+      { "id": "c", "text": "Porque no puede aplicarse a ningún tipo de sistema, ni siquiera a los pequeños" },
+      { "id": "d", "text": "Porque Royce lo desaconsejó públicamente después de definirlo" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema explica que el modelo en cascada no es muy popular debido a la tentación de comenzar el diseño o la codificación sin conocer bien los requisitos.",
+    "sourcePage": 23,
+    "tags": ["modelos-tradicionales", "cascada", "limitaciones"]
+  },
+  {
+    "id": "traditional-models-011",
+    "topic": "traditional-models",
+    "subtopic": "Cuadrantes del modelo en espiral",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles son las cuatro actividades clave (cuadrantes) del modelo en espiral, según el tema?",
+    "options": [
+      { "id": "a", "text": "Planificación" },
+      { "id": "b", "text": "Análisis de riesgo" },
+      { "id": "c", "text": "Ingeniería" },
+      { "id": "d", "text": "Codificación" },
+      { "id": "e", "text": "Evaluación" }
+    ],
+    "correctAnswers": ["a", "b", "c", "e"],
+    "explanation": "Los cuatro cuadrantes del modelo en espiral son planificación, análisis de riesgo, ingeniería y evaluación. La codificación no es un cuadrante en sí misma: el propio tema indica que forma parte de las actividades incluidas dentro del cuadrante de «ingeniería».",
+    "sourcePage": 25,
+    "tags": ["modelos-tradicionales", "espiral", "cuadrantes"]
+  },
+  {
+    "id": "traditional-models-012",
+    "topic": "traditional-models",
+    "subtopic": "Contenido del cuadrante de ingeniería",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Qué actividades incluye el cuadrante de «ingeniería» dentro de un ciclo del modelo en espiral?",
+    "options": [
+      { "id": "a", "text": "Análisis, diseño, codificación, etc., de forma similar a los modelos lineales" },
+      { "id": "b", "text": "Determinar objetivos, alternativas y restricciones del proyecto" },
+      { "id": "c", "text": "Evaluar alternativas e identificar y resolver riesgos" },
+      { "id": "d", "text": "Analizar los resultados obtenidos y servir de base para la siguiente fase" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El cuadrante de ingeniería incluye análisis, diseño, codificación, etc., de forma similar a los modelos lineales. La opción b describe el cuadrante de planificación, la c el de análisis de riesgo, y la d el de evaluación.",
+    "sourcePage": 25,
+    "tags": ["modelos-tradicionales", "espiral", "ingenieria"]
+  },
+  {
+    "id": "traditional-models-013",
+    "topic": "traditional-models",
+    "subtopic": "Flexibilidad del modelo en espiral: distinción con cascada",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Si en cada ciclo de un desarrollo se sigue una fase del modelo en cascada de forma secuencial, ¿qué modelo se está siguiendo según la flexibilidad descrita para el modelo en espiral?",
+    "options": [
+      { "id": "a", "text": "Modelo en cascada" },
+      { "id": "b", "text": "Modelo incremental" },
+      { "id": "c", "text": "Modelo en espiral puro" },
+      { "id": "d", "text": "Modelo evolutivo" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica que, dentro de la flexibilidad del modelo en espiral, si se decide seguir fases de cascada de forma secuencial, se está en realidad en un modelo en cascada; si se desarrollan partes del sistema, se opta por un ciclo de vida incremental.",
+    "sourcePage": 26,
+    "tags": ["modelos-tradicionales", "espiral", "cascada", "distincion"]
+  },
+  {
+    "id": "traditional-models-014",
+    "topic": "traditional-models",
+    "subtopic": "Mecanismo del modelo incremental",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cómo mitiga el modelo incremental la rigidez del modelo en cascada, según el tema?",
+    "options": [
+      { "id": "a", "text": "Descomponiendo el desarrollo en partes, cada una desarrollada mediante un ciclo de desarrollo representado en cascada" },
+      { "id": "b", "text": "Eliminando por completo la necesidad de especificar requisitos" },
+      { "id": "c", "text": "Sustituyendo las pruebas por revisiones informales del código" },
+      { "id": "d", "text": "Uniendo todas las fases del proyecto en una única actividad continua" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El modelo incremental mitiga la rigidez del modelo en cascada descomponiendo el desarrollo en partes, cada una de las cuales se desarrolla mediante un ciclo de desarrollo representado en cascada.",
+    "sourcePage": 27,
+    "tags": ["modelos-tradicionales", "incremental", "definicion"]
+  },
+  {
+    "id": "traditional-models-015",
+    "topic": "traditional-models",
+    "subtopic": "Ventajas del modelo incremental",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles son las ventajas del modelo incremental señaladas en el tema?",
+    "options": [
+      { "id": "a", "text": "Los subsistemas operativos permiten al usuario perfilar mejor las necesidades del sistema completo" },
+      { "id": "b", "text": "Las entregas parciales se producen en periodos cortos, facilitando incorporar nuevos requisitos" },
+      { "id": "c", "text": "Elimina completamente el riesgo de errores de programación" },
+      { "id": "d", "text": "Garantiza que el coste total del proyecto sea siempre menor que en cascada" }
+    ],
+    "correctAnswers": ["a", "b"],
+    "explanation": "Las ventajas del modelo incremental son los subsistemas operativos, que permiten al usuario perfilar mejor las necesidades del sistema completo, y las entregas parciales en periodos cortos, que facilitan incorporar requisitos que pueden no estar disponibles al inicio. El tema no afirma que elimine errores de programación ni que garantice menor coste.",
+    "sourcePage": 27,
+    "tags": ["modelos-tradicionales", "incremental", "ventajas"]
+  },
+  {
+    "id": "traditional-models-016",
+    "topic": "traditional-models",
+    "subtopic": "Producto núcleo",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿A qué se denomina «producto núcleo» (core product) en el modelo incremental, según el tema?",
+    "options": [
+      { "id": "a", "text": "A la funcionalidad del primer incremento" },
+      { "id": "b", "text": "Al conjunto de requisitos que el cliente todavía no ha aprobado" },
+      { "id": "c", "text": "Al prototipo ligero construido antes de iniciar el desarrollo" },
+      { "id": "d", "text": "A la última versión entregada al finalizar todos los incrementos" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica que la funcionalidad del primer incremento se denomina producto «núcleo» (core product).",
+    "sourcePage": 28,
+    "tags": ["modelos-tradicionales", "incremental", "producto-nucleo"]
+  },
+  {
+    "id": "traditional-models-017",
+    "topic": "traditional-models",
+    "subtopic": "Casos de aplicación del modelo incremental",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Para qué tipo de situaciones es apropiado el modelo incremental, según el tema?",
+    "options": [
+      { "id": "a", "text": "Sistemas donde el cliente necesita parte de la funcionalidad antes de completar el sistema, o contextos donde es beneficioso obtener requisitos de forma escalonada a través de subsistemas" },
+      { "id": "b", "text": "Proyectos en los que el cliente exige recibir el sistema completo de una sola vez" },
+      { "id": "c", "text": "Sistemas pequeños que no evolucionarán a corto plazo" },
+      { "id": "d", "text": "Proyectos en los que no se puede dividir el sistema en partes" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala que el modelo incremental es apropiado para sistemas donde el cliente necesita parte de la funcionalidad antes de completar el sistema, y para contextos donde es beneficioso obtener requisitos de forma escalonada a través de subsistemas.",
+    "sourcePage": 28,
+    "tags": ["modelos-tradicionales", "incremental", "aplicacion"]
+  },
+  {
+    "id": "traditional-models-018",
+    "topic": "traditional-models",
+    "subtopic": "Incremental frente a evolutivo",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál es la diferencia clave entre el modelo incremental y el modelo evolutivo, según el tema?",
+    "options": [
+      { "id": "a", "text": "El incremental entrega subsistemas parciales que se van acumulando hasta formar el sistema completo, mientras que el evolutivo entrega en cada ciclo un sistema completo que opera en el entorno real y mejora en versiones sucesivas" },
+      { "id": "b", "text": "Ambos modelos son idénticos, solo cambia el nombre según la empresa que los aplique" },
+      { "id": "c", "text": "El incremental entrega sistemas completos en cada ciclo, mientras que el evolutivo entrega solo subsistemas parciales" },
+      { "id": "d", "text": "El evolutivo no puede incluir desarrollos internos en cascada o en espiral, a diferencia del incremental" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El modelo incremental entrega subsistemas o partes del sistema global que se van sumando hasta completarlo, mientras que el evolutivo produce, en cada ciclo, un sistema completo que opera en el entorno real y va mejorando en versiones sucesivas. La opción c invierte esta distinción, y la d es falsa: el tema indica expresamente que el evolutivo puede incluir desarrollos internos en cascada o en espiral.",
+    "sourcePage": 28,
+    "tags": ["modelos-tradicionales", "incremental", "evolutivo", "distincion"]
+  },
+  {
+    "id": "traditional-models-019",
+    "topic": "traditional-models",
+    "subtopic": "Casos de aplicación del modelo evolutivo",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿En qué situaciones es apropiado aplicar el modelo evolutivo, según el tema?",
+    "options": [
+      { "id": "a", "text": "Desconocimiento inicial de todas las necesidades operativas, especialmente en entornos nuevos" },
+      { "id": "b", "text": "Necesidad de operar el sistema en plazos más cortos que los requeridos para un diseño exhaustivo" },
+      { "id": "c", "text": "Entornos de desarrollo completamente estables y sin ningún cambio normativo" },
+      { "id": "d", "text": "Desarrollo en entornos cambiantes, como normas legislativas o necesidad de mejora continua frente a la competencia" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "El modelo evolutivo es apropiado cuando se desconocen inicialmente todas las necesidades operativas (entornos nuevos), cuando se necesita operar el sistema en plazos más cortos que los requeridos para un diseño exhaustivo, y en entornos cambiantes, como normas legislativas o la necesidad de mejora continua frente a la competencia; no está pensado para entornos completamente estables.",
+    "sourcePage": 29,
+    "tags": ["modelos-tradicionales", "evolutivo", "aplicacion"]
+  },
+  {
+    "id": "traditional-models-020",
+    "topic": "traditional-models",
+    "subtopic": "Estructura interna de los ciclos del modelo evolutivo",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué señala el tema sobre la posible estructura interna de los ciclos del modelo evolutivo?",
+    "options": [
+      { "id": "a", "text": "Puede incluir desarrollos internos en cascada o en espiral" },
+      { "id": "b", "text": "Debe seguir obligatoriamente el modelo de prototipado en cada ciclo" },
+      { "id": "c", "text": "No puede combinarse con ningún otro modelo tradicional" },
+      { "id": "d", "text": "Cada ciclo debe completarse en menos de 24 horas, como en Scrum" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica expresamente que el modelo evolutivo puede incluir desarrollos internos en cascada o en espiral.",
+    "sourcePage": 29,
+    "tags": ["modelos-tradicionales", "evolutivo"]
+  },
+  {
+    "id": "traditional-models-021",
+    "topic": "traditional-models",
+    "subtopic": "Tipos de prototipos",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué diferencia existe entre los prototipos ligeros y los prototipos operativos, según el tema?",
+    "options": [
+      { "id": "a", "text": "Los ligeros son simulaciones visuales (dibujos de pantallas con enlaces), mientras que los operativos son módulos de software funcionales desarrollados en entornos RAD, sin cubrir todo el sistema" },
+      { "id": "b", "text": "Los ligeros son módulos de software funcionales y los operativos son solo dibujos de pantalla" },
+      { "id": "c", "text": "Ambos tipos de prototipo cubren siempre el sistema completo" },
+      { "id": "d", "text": "Los prototipos operativos no pueden mostrarse nunca al cliente" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema distingue entre prototipos ligeros (simulaciones visuales, como dibujos de pantallas con enlaces) y prototipos operativos (módulos de software funcionales en entornos RAD —Rapid Application Development—, sin cubrir todo el sistema).",
+    "sourcePage": 30,
+    "tags": ["modelos-tradicionales", "prototipado", "tipos"]
+  },
+  {
+    "id": "traditional-models-022",
+    "topic": "traditional-models",
+    "subtopic": "Propósito del prototipado",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál es el propósito principal de construir un prototipo, según el tema?",
+    "options": [
+      { "id": "a", "text": "Experimentar con un entorno similar al final para obtener retroalimentación del usuario o cliente y definir mejor los requisitos" },
+      { "id": "b", "text": "Sustituir por completo la fase de pruebas del sistema final" },
+      { "id": "c", "text": "Reducir a cero el coste total del proyecto" },
+      { "id": "d", "text": "Evitar cualquier contacto con el cliente durante el desarrollo" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica que el prototipado sirve para experimentar con un entorno similar al final, con el fin de obtener retroalimentación del usuario o cliente y definir mejor los requisitos.",
+    "sourcePage": 30,
+    "tags": ["modelos-tradicionales", "prototipado", "proposito"]
+  },
+  {
+    "id": "traditional-models-023",
+    "topic": "traditional-models",
+    "subtopic": "Riesgo de los prototipos ligeros externos",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál es el riesgo señalado en el tema sobre los prototipos ligeros desarrollados fuera del equipo de desarrollo?",
+    "options": [
+      { "id": "a", "text": "Pueden mostrar funcionalidades que en realidad no son implementables" },
+      { "id": "b", "text": "Consumen automáticamente más recursos que un prototipo operativo" },
+      { "id": "c", "text": "Sustituyen legalmente al contrato firmado con el cliente" },
+      { "id": "d", "text": "Garantizan que el sistema final tendrá exactamente el mismo rendimiento" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema advierte de que los prototipos ligeros desarrollados fuera del equipo pueden mostrar funcionalidades no implementables, generando expectativas irreales en el cliente.",
+    "sourcePage": 30,
+    "tags": ["modelos-tradicionales", "prototipado", "riesgos"]
+  },
+  {
+    "id": "traditional-models-024",
+    "topic": "traditional-models",
+    "subtopic": "Definición de concurrencia",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué es el modelo de concurrencia según el tema?",
+    "options": [
+      { "id": "a", "text": "El solapamiento de actividades, cada una en un estado concreto, que puede aportar beneficios o ser origen de problemas en la planificación del proyecto" },
+      { "id": "b", "text": "Un modelo que prohíbe que dos actividades se ejecuten en paralelo" },
+      { "id": "c", "text": "Un sinónimo del modelo en espiral centrado en el análisis de riesgo" },
+      { "id": "d", "text": "Un modelo exclusivo para el desarrollo de software en la nube" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema define la concurrencia como el solapamiento de actividades, cada una en un estado concreto, que puede aportar beneficios o ser origen de problemas en la planificación del proyecto.",
+    "sourcePage": 31,
+    "tags": ["modelos-tradicionales", "concurrencia", "definicion"]
+  },
+  {
+    "id": "traditional-models-025",
+    "topic": "traditional-models",
+    "subtopic": "Índice frente a gestión de la concurrencia",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Respecto al modelo de concurrencia, ¿qué diferencia hay entre el índice de concurrencia y la gestión de la concurrencia?",
+    "options": [
+      { "id": "a", "text": "El índice de concurrencia puede ser reducido o intensivo según el flujo de modificaciones, mientras que la gestión de la concurrencia puede ser planificada o inducida por las circunstancias" },
+      { "id": "b", "text": "Son sinónimos exactos del mismo concepto" },
+      { "id": "c", "text": "El índice de concurrencia se refiere al presupuesto del proyecto y la gestión a los plazos de entrega" },
+      { "id": "d", "text": "La gestión de la concurrencia solo existe en los modelos ágiles, no en los tradicionales" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema distingue el índice de concurrencia (reducido, con escaso flujo de modificaciones, o intensivo, con problemas de planificación y distribución del trabajo) de la gestión de la concurrencia (planificada o inducida por las circunstancias), cuya adecuada aplicación maximiza los beneficios o minimiza los perjuicios.",
+    "sourcePage": 31,
+    "tags": ["modelos-tradicionales", "concurrencia", "distincion"]
+  },
+  {
+    "id": "traditional-models-026",
+    "topic": "traditional-models",
+    "subtopic": "Modelos que NO son tradicionales",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál de los siguientes NO es uno de los modelos tradicionales de desarrollo de software mencionados en el tema?",
+    "options": [
+      { "id": "a", "text": "Kanban" },
+      { "id": "b", "text": "Prototipado" },
+      { "id": "c", "text": "Evolutivo" },
+      { "id": "d", "text": "Concurrencia" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Kanban es una metodología ágil, no un modelo tradicional. Los modelos tradicionales enumerados en el tema son: lineal o secuencial, cascada, espiral, incremental, evolutivo, prototipado y concurrencia.",
+    "sourcePage": 18,
+    "tags": ["modelos-tradicionales", "negativa"]
+  }
+]

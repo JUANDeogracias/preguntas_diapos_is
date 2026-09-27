@@ -1,0 +1,294 @@
+[
+  {
+    "id": "lifecycle-001",
+    "topic": "lifecycle",
+    "subtopic": "Concepto de proceso",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "Según la definición general recogida en el tema, ¿qué es un «proceso» en el ciclo de vida del software?",
+    "options": [
+      { "id": "a", "text": "El conjunto de actividades necesarias para transformar los requisitos de un usuario en un sistema funcional" },
+      { "id": "b", "text": "El conjunto de herramientas software empleadas para automatizar las pruebas" },
+      { "id": "c", "text": "El documento que recoge los requisitos funcionales del cliente" },
+      { "id": "d", "text": "La fase final en la que el sistema se entrega al cliente" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema define proceso como el conjunto de actividades necesarias para transformar los requisitos de un usuario en un sistema funcional, con actividades principales, recursos, restricciones, subprocesos encadenados y criterios de entrada/salida.",
+    "sourcePage": 4,
+    "tags": ["ciclo-de-vida", "proceso", "definicion"]
+  },
+  {
+    "id": "lifecycle-002",
+    "topic": "lifecycle",
+    "subtopic": "Procesos primarios: adquisición y suministro",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Dentro de los procesos primarios del ciclo de vida del software, ¿cuál es la diferencia entre adquisición y suministro?",
+    "options": [
+      { "id": "a", "text": "La adquisición es el proceso global que sigue el adquiriente para obtener el producto, mientras que el suministro es el proceso global que sigue el suministrador para proporcionarlo" },
+      { "id": "b", "text": "La adquisición y el suministro son sinónimos del mismo proceso visto desde el cliente" },
+      { "id": "c", "text": "La adquisición se refiere a comprar herramientas de desarrollo, y el suministro a entregar el producto final al operador" },
+      { "id": "d", "text": "El suministro incluye únicamente las tareas de mantenimiento posteriores a la entrega" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Según los procesos primarios del ciclo de vida, adquisición es el proceso global que sigue el adquiriente para obtener el producto, y suministro es el proceso global que sigue el suministrador para proporcionarlo; son procesos complementarios pero distintos.",
+    "sourcePage": 7,
+    "tags": ["ciclo-de-vida", "adquisicion", "suministro", "procesos-primarios"]
+  },
+  {
+    "id": "lifecycle-003",
+    "topic": "lifecycle",
+    "subtopic": "Procesos de soporte",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes actividades se consideran procesos de soporte del ciclo de vida del software?",
+    "options": [
+      { "id": "a", "text": "Documentación" },
+      { "id": "b", "text": "Verificación" },
+      { "id": "c", "text": "Adquisición" },
+      { "id": "d", "text": "Gestión de la configuración" },
+      { "id": "e", "text": "Infraestructura" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "Los procesos de soporte incluyen documentación, gestión de la configuración, aseguramiento de la calidad, verificación, validación, reuniones de revisión, auditorías y resolución de problemas. Adquisición es un proceso primario, e infraestructura es un proceso organizacional.",
+    "sourcePage": 8,
+    "tags": ["ciclo-de-vida", "procesos-de-soporte"]
+  },
+  {
+    "id": "lifecycle-004",
+    "topic": "lifecycle",
+    "subtopic": "Definición ISO/IEC 12207: ciclo de vida",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "Según el estándar ISO/IEC 12207 de 1995 citado en el tema, ¿qué es el «ciclo de vida del software»?",
+    "options": [
+      { "id": "a", "text": "El periodo de tiempo comprendido desde la definición de los requisitos hasta el fin de su uso, que proporciona consistencia y estructura a las actividades" },
+      { "id": "b", "text": "El conjunto de actividades y tareas interrelacionadas que, al ejecutarse conjuntamente, transforman una entrada en una salida" },
+      { "id": "c", "text": "El estándar internacional que regula exclusivamente el mantenimiento del software" },
+      { "id": "d", "text": "El periodo de garantía que el proveedor ofrece tras la entrega del producto" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema distingue dos definiciones de ISO/IEC 12207: el ciclo de vida del software es el periodo desde la definición de requisitos hasta el fin de su uso; la opción b corresponde en realidad a la definición de «proceso» de esa misma norma, no a la de ciclo de vida.",
+    "sourcePage": 5,
+    "tags": ["ciclo-de-vida", "iso-12207", "definicion"]
+  },
+  {
+    "id": "lifecycle-005",
+    "topic": "lifecycle",
+    "subtopic": "Clasificación de los procesos",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿En qué tres categorías clasifica el tema los procesos del ciclo de vida del software?",
+    "options": [
+      { "id": "a", "text": "Primarios, de soporte y organizacionales" },
+      { "id": "b", "text": "Primarios, secundarios y terciarios" },
+      { "id": "c", "text": "Planificación, ejecución y cierre" },
+      { "id": "d", "text": "Adquisición, desarrollo y mantenimiento" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema clasifica los procesos del ciclo de vida del software en tres tipos: primarios, de soporte y organizacionales.",
+    "sourcePage": 6,
+    "tags": ["ciclo-de-vida", "clasificacion-de-procesos"]
+  },
+  {
+    "id": "lifecycle-006",
+    "topic": "lifecycle",
+    "subtopic": "Verificación frente a validación",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál de las siguientes afirmaciones distingue correctamente la verificación de la validación dentro de los procesos de soporte del ciclo de vida?",
+    "options": [
+      { "id": "a", "text": "La verificación son actividades para comprobar el producto, mientras que la validación son actividades para confirmar que el producto cumple su propósito" },
+      { "id": "b", "text": "La verificación confirma que el producto cumple su propósito, mientras que la validación comprueba el producto" },
+      { "id": "c", "text": "Verificación y validación son sinónimos y se usan indistintamente en el ciclo de vida del software" },
+      { "id": "d", "text": "La verificación es responsabilidad exclusiva del cliente y la validación del equipo de desarrollo" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema define la verificación como actividades para comprobar el producto, y la validación como actividades para confirmar que el producto cumple su propósito. La opción b intercambia ambas definiciones, un error habitual entre estos dos conceptos muy próximos.",
+    "sourcePage": 8,
+    "tags": ["ciclo-de-vida", "verificacion", "validacion", "distincion"]
+  },
+  {
+    "id": "lifecycle-007",
+    "topic": "lifecycle",
+    "subtopic": "Documentación frente a gestión de la configuración",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Dentro de los procesos de soporte, ¿qué diferencia existe entre documentación y gestión de la configuración?",
+    "options": [
+      { "id": "a", "text": "La documentación registra información específica utilizada por otros procesos, mientras que la gestión de la configuración mantiene un registro de los productos generados en la ejecución de los procesos" },
+      { "id": "b", "text": "La gestión de la configuración registra información específica utilizada por otros procesos, y la documentación mantiene un registro de los productos generados" },
+      { "id": "c", "text": "La documentación es un proceso primario y la gestión de la configuración uno organizacional" },
+      { "id": "d", "text": "Ambas se refieren exclusivamente al control de versiones del código fuente" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema define documentación como las actividades para registrar información específica utilizada por otros procesos, y gestión de la configuración como las actividades para mantener un registro de los productos generados en la ejecución de los procesos. Ambas son procesos de soporte, no primarios ni organizacionales.",
+    "sourcePage": 8,
+    "tags": ["ciclo-de-vida", "documentacion", "gestion-de-la-configuracion", "distincion"]
+  },
+  {
+    "id": "lifecycle-008",
+    "topic": "lifecycle",
+    "subtopic": "Procesos organizacionales",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes son actividades organizacionales del ciclo de vida del software, según el tema?",
+    "options": [
+      { "id": "a", "text": "Gestión" },
+      { "id": "b", "text": "Infraestructura" },
+      { "id": "c", "text": "Mejora" },
+      { "id": "d", "text": "Verificación" },
+      { "id": "e", "text": "Adquisición" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "Los procesos organizacionales señalados en el tema son gestión, infraestructura, mejora y formación. Verificación es un proceso de soporte, y adquisición es un proceso primario.",
+    "sourcePage": 10,
+    "tags": ["ciclo-de-vida", "procesos-organizacionales"]
+  },
+  {
+    "id": "lifecycle-009",
+    "topic": "lifecycle",
+    "subtopic": "Actividades principales del proceso de desarrollo",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el tema, ¿cuáles son las cinco actividades principales en que se divide el proceso de desarrollo de software?",
+    "options": [
+      { "id": "a", "text": "Comunicación, planificación, modelado, construcción y despliegue" },
+      { "id": "b", "text": "Requisitos, diseño, codificación, pruebas e integración" },
+      { "id": "c", "text": "Inicio, elaboración, construcción y transición" },
+      { "id": "d", "text": "Planificación, análisis de riesgo, ingeniería y evaluación" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala que el proceso de desarrollo de software tiene cinco actividades principales: comunicación, planificación, modelado, construcción y despliegue. La opción b corresponde a las etapas del modelo lineal/cascada, la c a las fases del Proceso Unificado, y la d a los cuadrantes del modelo en espiral: son conceptos de otros bloques del tema que no deben confundirse con esta lista general.",
+    "sourcePage": 11,
+    "tags": ["ciclo-de-vida", "proceso-de-desarrollo", "actividades-principales"]
+  },
+  {
+    "id": "lifecycle-010",
+    "topic": "lifecycle",
+    "subtopic": "Actividades «paraguas»",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes se consideran actividades «paraguas» (o «sombrilla») en el proceso de desarrollo de software, según el tema?",
+    "options": [
+      { "id": "a", "text": "Gestión y control del proyecto" },
+      { "id": "b", "text": "Gestión del riesgo" },
+      { "id": "c", "text": "Aseguramiento de la calidad" },
+      { "id": "d", "text": "Codificación" },
+      { "id": "e", "text": "Comunicación" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "El tema cita como actividades paraguas la gestión y control del proyecto, la gestión del riesgo, el aseguramiento de la calidad y la gestión de la configuración, entre otras. La codificación y la comunicación no son actividades paraguas: la comunicación es una de las cinco actividades principales, y la codificación forma parte de la construcción.",
+    "sourcePage": 11,
+    "tags": ["ciclo-de-vida", "actividades-paraguas"]
+  },
+  {
+    "id": "lifecycle-011",
+    "topic": "lifecycle",
+    "subtopic": "Flujos del proceso: evolutivo",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "El tema representa cuatro flujos de proceso del software (lineal, iterativo, evolutivo y paralelo). ¿Cuál de ellos se representa como un ciclo que, en cada vuelta completa, produce un «incremento obtenido»?",
+    "options": [
+      { "id": "a", "text": "Flujo del proceso evolutivo" },
+      { "id": "b", "text": "Flujo del proceso lineal" },
+      { "id": "c", "text": "Flujo del proceso iterativo" },
+      { "id": "d", "text": "Flujo del proceso paralelo" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "En el diagrama del tema, el flujo evolutivo se representa como un ciclo circular (comunicación, planeación, modelado, construcción, despliegue) que en cada vuelta genera un «incremento obtenido», a diferencia del flujo lineal (sin retornos), el iterativo (retornos sobre una secuencia lineal) y el paralelo (actividades solapadas en el tiempo).",
+    "sourcePage": 12,
+    "tags": ["ciclo-de-vida", "flujos-de-proceso", "evolutivo"]
+  },
+  {
+    "id": "lifecycle-012",
+    "topic": "lifecycle",
+    "subtopic": "Desarrollo frente a mantenimiento",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué diferencia existe entre los procesos primarios de desarrollo y mantenimiento del ciclo de vida del software?",
+    "options": [
+      { "id": "a", "text": "El desarrollo es el proceso empleado por el suministrador para diseñar, construir y probar el producto, mientras que el mantenimiento se emplea para mantener el producto, incluyendo cambios en el producto y en su entorno de operación" },
+      { "id": "b", "text": "El mantenimiento es el proceso empleado para diseñar, construir y probar el producto, y el desarrollo se ocupa de los cambios posteriores a la entrega" },
+      { "id": "c", "text": "El desarrollo lo realiza el operador y el mantenimiento el adquiriente" },
+      { "id": "d", "text": "El mantenimiento ocurre siempre antes que el desarrollo dentro del ciclo de vida" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema define desarrollo como el proceso empleado por el suministrador para diseñar, construir y probar el producto, y mantenimiento como el proceso empleado para mantenerlo, incluyendo cambios tanto en el producto como en su entorno de operación.",
+    "sourcePage": 7,
+    "tags": ["ciclo-de-vida", "desarrollo", "mantenimiento", "distincion"]
+  },
+  {
+    "id": "lifecycle-013",
+    "topic": "lifecycle",
+    "subtopic": "Identificación de procesos primarios",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de los siguientes son procesos primarios del ciclo de vida del software, según el tema?",
+    "options": [
+      { "id": "a", "text": "Adquisición" },
+      { "id": "b", "text": "Operación" },
+      { "id": "c", "text": "Documentación" },
+      { "id": "d", "text": "Formación" },
+      { "id": "e", "text": "Mantenimiento" }
+    ],
+    "correctAnswers": ["a", "b", "e"],
+    "explanation": "Los procesos primarios son adquisición, suministro, desarrollo, operación y mantenimiento. Documentación es un proceso de soporte, y formación es un proceso organizacional.",
+    "sourcePage": 7,
+    "tags": ["ciclo-de-vida", "procesos-primarios"]
+  },
+  {
+    "id": "lifecycle-014",
+    "topic": "lifecycle",
+    "subtopic": "Auditorías frente a resolución de problemas",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Dentro de los procesos de soporte del ciclo de vida, ¿qué diferencia hay entre auditorías y resolución de problemas?",
+    "options": [
+      { "id": "a", "text": "Las auditorías comprueban que el proyecto cumple con los requisitos, planes y contratos, mientras que la resolución de problemas analiza y resuelve problemas relativos al proyecto, sea cual sea su fuente y naturaleza" },
+      { "id": "b", "text": "La resolución de problemas comprueba el cumplimiento de contratos, y las auditorías se limitan a corregir defectos de código" },
+      { "id": "c", "text": "Ambas son responsabilidad exclusiva del cliente y nunca del equipo de desarrollo" },
+      { "id": "d", "text": "Las auditorías solo pueden realizarse una vez finalizado completamente el proyecto" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema define auditorías como actividades para comprobar que el proyecto cumple con los requisitos, planes y contratos, y resolución de problemas como actividades para analizar y resolver problemas del proyecto sea cual sea su fuente y naturaleza.",
+    "sourcePage": 9,
+    "tags": ["ciclo-de-vida", "auditorias", "resolucion-de-problemas", "distincion"]
+  },
+  {
+    "id": "lifecycle-015",
+    "topic": "lifecycle",
+    "subtopic": "Flujos del proceso: paralelo frente a lineal",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según los diagramas de flujos de proceso del tema, ¿qué caracteriza al flujo de proceso paralelo frente al flujo lineal?",
+    "options": [
+      { "id": "a", "text": "En el flujo paralelo, actividades como el modelado y la construcción pueden solaparse en el tiempo para distintas partes del sistema, mientras que en el flujo lineal las actividades se ejecutan una tras otra sin solapamiento" },
+      { "id": "b", "text": "El flujo paralelo elimina por completo la actividad de comunicación con el cliente" },
+      { "id": "c", "text": "El flujo lineal permite mayor solapamiento de actividades que el paralelo" },
+      { "id": "d", "text": "Ambos flujos se representan de forma idéntica en el diagrama del tema" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El diagrama del flujo paralelo muestra actividades como modelado, construcción y despliegue avanzando de forma solapada en el tiempo para distintas partes del sistema, a diferencia del flujo lineal, en el que cada actividad se ejecuta de forma estrictamente secuencial.",
+    "sourcePage": 12,
+    "tags": ["ciclo-de-vida", "flujos-de-proceso", "paralelo"]
+  },
+  {
+    "id": "lifecycle-016",
+    "topic": "lifecycle",
+    "subtopic": "Elementos de las tareas",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Según el tema, ¿qué elementos intervienen en las tareas del proceso de desarrollo de software?",
+    "options": [
+      { "id": "a", "text": "Productos o artefactos utilizados o construidos, aspectos de control de la calidad e hitos de proyecto" },
+      { "id": "b", "text": "Exclusivamente el código fuente generado por el equipo" },
+      { "id": "c", "text": "Solo los recursos económicos asignados al proyecto" },
+      { "id": "d", "text": "Los contratos legales firmados entre adquiriente y suministrador" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala que en las tareas intervienen productos o artefactos utilizados (entrada) o construidos (salida), aspectos de control de la calidad e hitos de proyecto.",
+    "sourcePage": 11,
+    "tags": ["ciclo-de-vida", "proceso-de-desarrollo", "tareas"]
+  }
+]

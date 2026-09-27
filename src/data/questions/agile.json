@@ -1,0 +1,475 @@
+[
+  {
+    "id": "agile-001",
+    "topic": "agile",
+    "subtopic": "Manifiesto Ágil",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿En qué año se publicó el Manifiesto Ágil de Software y cuántos firmantes tuvo?",
+    "options": [
+      { "id": "a", "text": "2001, firmado por 16 notables desarrolladores, escritores y consultores" },
+      { "id": "b", "text": "1995, firmado por Winston Royce en solitario" },
+      { "id": "c", "text": "1988, firmado por Boehm y su equipo de investigación" },
+      { "id": "d", "text": "2010, firmado por la empresa Rational Software" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El Manifiesto Ágil de Software se publicó en 2001 y fue firmado por 16 notables desarrolladores, escritores y consultores, estableciendo 4 valores y 12 principios.",
+    "sourcePage": 38,
+    "tags": ["agil", "manifiesto-agil"]
+  },
+  {
+    "id": "agile-002",
+    "topic": "agile",
+    "subtopic": "Scrum frente a Kanban",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál es la principal diferencia entre Kanban y Scrum según el tema?",
+    "options": [
+      { "id": "a", "text": "Kanban es más flexible y no requiere iteraciones ni sprints predefinidos, mientras que Scrum organiza el trabajo en sprints" },
+      { "id": "b", "text": "Kanban exige sprints de 30 días, mientras que Scrum no tiene ciclos definidos" },
+      { "id": "c", "text": "Scrum se basa en un tablero de columnas y Kanban en reuniones diarias de 15 minutos" },
+      { "id": "d", "text": "Kanban fue creado por Jeff Sutherland en los años 90, igual que Scrum" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "A diferencia de Scrum, que organiza el trabajo en sprints (ciclos de hasta 30 días con reuniones diarias), Kanban es más flexible y no requiere iteraciones ni sprints predefinidos, enfocándose en una entrega continua mediante un tablero con límite de trabajo en progreso.",
+    "sourcePage": 47,
+    "tags": ["agil", "scrum", "kanban", "distincion"]
+  },
+  {
+    "id": "agile-003",
+    "topic": "agile",
+    "subtopic": "Roles de Scrum",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de los siguientes son roles definidos en Scrum según el tema?",
+    "options": [
+      { "id": "a", "text": "Scrum Master" },
+      { "id": "b", "text": "Product owner" },
+      { "id": "c", "text": "Team" },
+      { "id": "d", "text": "Release manager" },
+      { "id": "e", "text": "Quality assurance lead" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "Los roles de Scrum señalados en el tema son Scrum Master, Product Owner y Team. Release manager y quality assurance lead no aparecen como roles propios de Scrum en el tema.",
+    "sourcePage": 44,
+    "tags": ["agil", "scrum", "roles"]
+  },
+  {
+    "id": "agile-004",
+    "topic": "agile",
+    "subtopic": "Los 4 valores del Manifiesto Ágil",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles son los 4 valores del Manifiesto Ágil recogidos en el tema?",
+    "options": [
+      { "id": "a", "text": "Individuos e interacciones sobre procesos y herramientas" },
+      { "id": "b", "text": "Software que funciona sobre documentación exhaustiva" },
+      { "id": "c", "text": "Seguimiento de un plan sobre responder ante el cambio" },
+      { "id": "d", "text": "Colaboración con el cliente sobre negociación de contratos" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "Los cuatro valores del Manifiesto Ágil son: individuos e interacciones sobre procesos y herramientas; software que funciona sobre documentación exhaustiva; colaboración con el cliente sobre negociación de contratos; y responder ante el cambio sobre seguimiento de un plan. La opción c invierte este último valor.",
+    "sourcePage": 37,
+    "tags": ["agil", "manifiesto-agil", "valores"]
+  },
+  {
+    "id": "agile-005",
+    "topic": "agile",
+    "subtopic": "Principios que NO son del Manifiesto Ágil",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál de las siguientes NO es uno de los 12 principios del Manifiesto Ágil recogidos en el tema?",
+    "options": [
+      { "id": "a", "text": "Maximizar la documentación entregada en cada iteración" },
+      { "id": "b", "text": "Aceptamos que los requisitos cambien" },
+      { "id": "c", "text": "Entregamos software funcional frecuente" },
+      { "id": "d", "text": "Equipos auto-organizados" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Maximizar la documentación entregada contradice directamente el valor ágil de «software que funciona sobre documentación exhaustiva» y no figura entre los 12 principios del tema, que sí incluyen aceptar el cambio de requisitos, la entrega frecuente de software funcional y los equipos auto-organizados.",
+    "sourcePage": 39,
+    "tags": ["agil", "manifiesto-agil", "principios", "negativa"]
+  },
+  {
+    "id": "agile-006",
+    "topic": "agile",
+    "subtopic": "Situaciones ideales para aplicar ágil",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿En qué situaciones es ideal aplicar una metodología ágil, según el tema?",
+    "options": [
+      { "id": "a", "text": "Cuando los requisitos del software son difíciles de predecir o cambian con frecuencia" },
+      { "id": "b", "text": "Cuando se necesita intercalar diseño y construcción de software" },
+      { "id": "c", "text": "Cuando el análisis, diseño y construcción siguen una planificación completamente predecible" },
+      { "id": "d", "text": "Cuando el análisis, diseño y construcción no siguen una planificación predecible" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "El tema señala como situaciones ideales para lo ágil aquellas con requisitos difíciles de predecir o cambiantes, la necesidad de intercalar diseño y construcción, y cuando el análisis, diseño y construcción no siguen una planificación predecible. La opción c es la afirmación contraria.",
+    "sourcePage": 40,
+    "tags": ["agil", "aplicacion"]
+  },
+  {
+    "id": "agile-007",
+    "topic": "agile",
+    "subtopic": "Coste del cambio en procesos ágiles frente a convencionales",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el gráfico del tema sobre el coste del cambio a lo largo del desarrollo, ¿qué diferencia existe entre los procesos convencionales y los procesos ágiles?",
+    "options": [
+      { "id": "a", "text": "En los procesos convencionales el coste del cambio crece de forma muy pronunciada a medida que avanza el desarrollo, mientras que en los procesos ágiles el coste se mantiene mucho más controlado" },
+      { "id": "b", "text": "El coste del cambio es idéntico en ambos enfoques durante todo el desarrollo" },
+      { "id": "c", "text": "En los procesos ágiles el coste del cambio crece más rápido que en los convencionales" },
+      { "id": "d", "text": "El coste del cambio es siempre cero cuando se usa un proceso ágil" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El gráfico del tema muestra que el coste del cambio con procesos convencionales crece de forma muy pronunciada conforme avanza el desarrollo, mientras que con procesos ágiles el coste idealizado del cambio se mantiene mucho más plano y controlado.",
+    "sourcePage": 40,
+    "tags": ["agil", "coste-del-cambio"]
+  },
+  {
+    "id": "agile-008",
+    "topic": "agile",
+    "subtopic": "Filosofía de la Ingeniería del Software Ágil",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Qué directrices combina la Ingeniería del Software Ágil, según el tema?",
+    "options": [
+      { "id": "a", "text": "Satisfacción del cliente y entrega temprana del software incremental" },
+      { "id": "b", "text": "Equipos grandes y jerarquizados con roles muy especializados" },
+      { "id": "c", "text": "Métodos informales" },
+      { "id": "d", "text": "Simplicidad general del desarrollo" }
+    ],
+    "correctAnswers": ["a", "c", "d"],
+    "explanation": "La Ingeniería del Software Ágil combina la satisfacción del cliente y la entrega temprana del software incremental, equipos pequeños y con alta motivación, métodos informales, los mismos productos de trabajo y simplicidad general del desarrollo. La opción b contradice el rasgo de equipos pequeños y motivados.",
+    "sourcePage": 41,
+    "tags": ["agil", "filosofia"]
+  },
+  {
+    "id": "agile-009",
+    "topic": "agile",
+    "subtopic": "Metodologías ágiles mencionadas",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿Cuáles son las tres metodologías ágiles mencionadas en el tema?",
+    "options": [
+      { "id": "a", "text": "Scrum, Programación Extrema (XP) y Kanban" },
+      { "id": "b", "text": "Scrum, Cascada y Kanban" },
+      { "id": "c", "text": "XP, Proceso Unificado y DevOps" },
+      { "id": "d", "text": "Kanban, Espiral y Scrum" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema menciona como diferentes metodologías ágiles: Scrum, Programación Extrema (XP) y Kanban.",
+    "sourcePage": 41,
+    "tags": ["agil", "metodologias"]
+  },
+  {
+    "id": "agile-010",
+    "topic": "agile",
+    "subtopic": "Origen de Scrum",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Quién creó el método ágil Scrum, y quiénes lo desarrollaron y ampliaron posteriormente?",
+    "options": [
+      { "id": "a", "text": "Fue creado por Jeff Sutherland en los años 90, y desarrollado y ampliado por Schwaber y Beedle" },
+      { "id": "b", "text": "Fue creado por Kent Beck como parte de la Programación Extrema" },
+      { "id": "c", "text": "Fue creado por Boehm como una variante ágil del modelo en espiral" },
+      { "id": "d", "text": "Fue creado por Rational Software junto con el Proceso Unificado" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Scrum fue creado por Jeff Sutherland en los años 90, y desarrollado y ampliado posteriormente por Schwaber y Beedle, con principios alineados con el Manifiesto Ágil.",
+    "sourcePage": 42,
+    "tags": ["agil", "scrum", "origen"]
+  },
+  {
+    "id": "agile-011",
+    "topic": "agile",
+    "subtopic": "Fases del proceso de análisis de Scrum",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿En qué fases se estructura el proceso de análisis de Scrum, según el tema?",
+    "options": [
+      { "id": "a", "text": "Requerimientos, análisis, diseño, evolución y entrega" },
+      { "id": "b", "text": "Planificación, diseño, codificación y pruebas" },
+      { "id": "c", "text": "Inicio, elaboración, construcción y transición" },
+      { "id": "d", "text": "Planificar, hacer, verificar y actuar" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema estructura el proceso de análisis de Scrum en las fases de requerimientos, análisis, diseño, evolución y entrega, organizadas en ciclos de trabajo llamados sprints.",
+    "sourcePage": 42,
+    "tags": ["agil", "scrum", "fases"]
+  },
+  {
+    "id": "agile-012",
+    "topic": "agile",
+    "subtopic": "Reunión diaria de Scrum",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el diagrama del tema, ¿qué tres preguntas responden los miembros del equipo en la reunión diaria de Scrum?",
+    "options": [
+      { "id": "a", "text": "¿Qué hiciste desde la última reunión Scrum?, ¿Tienes algún obstáculo?, ¿Qué harás antes de la próxima reunión?" },
+      { "id": "b", "text": "¿Cuánto código has escrito?, ¿Cuántos errores has corregido?, ¿Cuándo terminarás?" },
+      { "id": "c", "text": "¿Qué historias de usuario completaste?, ¿Qué velocidad llevas?, ¿Necesitas ayuda del Product Owner?" },
+      { "id": "d", "text": "¿Qué tareas hay en el tablero?, ¿Cuál es el límite de trabajo en progreso?, ¿Qué política del proceso aplicaste?" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El diagrama del tema indica que en la reunión diaria de Scrum (de unos 15 minutos) los miembros del equipo responden a tres preguntas básicas: qué hicieron desde la última reunión, si tienen algún obstáculo, y qué harán antes de la próxima reunión.",
+    "sourcePage": 43,
+    "tags": ["agil", "scrum", "reunion-diaria"]
+  },
+  {
+    "id": "agile-013",
+    "topic": "agile",
+    "subtopic": "Duración del sprint y de la reunión diaria",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Según el diagrama del tema, ¿con qué periodicidad se celebra la reunión diaria de Scrum y cuál es la duración representada para un sprint?",
+    "options": [
+      { "id": "a", "text": "La reunión diaria se celebra cada 24 horas, y el sprint representado dura 30 días" },
+      { "id": "b", "text": "La reunión diaria se celebra cada 30 días, y el sprint dura 24 horas" },
+      { "id": "c", "text": "Ambas se celebran cada 24 horas" },
+      { "id": "d", "text": "El sprint no tiene una duración definida en Scrum" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El diagrama del tema representa la reunión diaria de Scrum cada 24 horas, dentro de un sprint cuya duración se muestra de 30 días, al final del cual se demuestra la nueva funcionalidad.",
+    "sourcePage": 43,
+    "tags": ["agil", "scrum", "sprint"]
+  },
+  {
+    "id": "agile-014",
+    "topic": "agile",
+    "subtopic": "Retraso del producto frente a retraso del sprint",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "En el diagrama de Scrum del tema, ¿qué diferencia hay entre el «retraso del producto» y el «retraso del sprint»?",
+    "options": [
+      { "id": "a", "text": "El retraso del producto son las características del producto que desea el cliente con prioridad, mientras que el retraso del sprint son las características asignadas para ese sprint concreto" },
+      { "id": "b", "text": "Son sinónimos exactos del mismo artefacto" },
+      { "id": "c", "text": "El retraso del sprint incluye todo el trabajo pendiente del proyecto completo, y el retraso del producto solo el de un sprint" },
+      { "id": "d", "text": "El retraso del producto lo gestiona el Scrum Master, y el retraso del sprint lo gestiona el cliente" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El diagrama del tema define el retraso del producto como las características del producto que desea el cliente con prioridad, y el retraso del sprint como las características asignadas para ese sprint concreto, ampliadas con los aspectos con retraso que el equipo va incorporando.",
+    "sourcePage": 43,
+    "tags": ["agil", "scrum", "backlog", "distincion"]
+  },
+  {
+    "id": "agile-015",
+    "topic": "agile",
+    "subtopic": "Artefactos de Scrum",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de los siguientes son artefactos de Scrum según el tema?",
+    "options": [
+      { "id": "a", "text": "Product backlog" },
+      { "id": "b", "text": "Sprint backlog" },
+      { "id": "c", "text": "Release burndown chart" },
+      { "id": "d", "text": "Historias de usuario" },
+      { "id": "e", "text": "Tarjetas CRC" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "Los artefactos de Scrum señalados en el tema son product backlog, sprint backlog, release burndown chart y sprint burndown. Las historias de usuario y las tarjetas CRC pertenecen a la Programación Extrema (XP).",
+    "sourcePage": 44,
+    "tags": ["agil", "scrum", "artefactos"]
+  },
+  {
+    "id": "agile-016",
+    "topic": "agile",
+    "subtopic": "Reuniones de Scrum",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes son reuniones propias de Scrum según el tema?",
+    "options": [
+      { "id": "a", "text": "Sprint planning meeting" },
+      { "id": "b", "text": "Daily scrum" },
+      { "id": "c", "text": "Sprint review meeting" },
+      { "id": "d", "text": "Sprint retrospective" },
+      { "id": "e", "text": "Planning game de XP" }
+    ],
+    "correctAnswers": ["a", "b", "c", "d"],
+    "explanation": "Las reuniones de Scrum señaladas en el tema son sprint planning meeting, daily scrum, sprint review meeting y sprint retrospective. El «planning game» no aparece en el tema como parte de Scrum.",
+    "sourcePage": 44,
+    "tags": ["agil", "scrum", "reuniones"]
+  },
+  {
+    "id": "agile-017",
+    "topic": "agile",
+    "subtopic": "Definición de la Programación Extrema (XP)",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué caracteriza a la Programación Extrema (XP) según el tema?",
+    "options": [
+      { "id": "a", "text": "Es una metodología ágil que mejora la calidad del software y responde rápidamente a cambios en los requisitos, fomentando la colaboración, con un enfoque en objetos" },
+      { "id": "b", "text": "Es un método de gestión de flujo de trabajo originado en Toyota" },
+      { "id": "c", "text": "Es un marco dirigido por casos de uso y centrado en la arquitectura" },
+      { "id": "d", "text": "Es un estándar internacional para la gestión de la configuración del software" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "XP es una metodología ágil que mejora la calidad del software y responde rápidamente a cambios en los requisitos del cliente, fomenta la colaboración y tiene un enfoque en objetos.",
+    "sourcePage": 45,
+    "tags": ["agil", "xp", "definicion"]
+  },
+  {
+    "id": "agile-018",
+    "topic": "agile",
+    "subtopic": "Actividades clave de XP",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles son las cuatro actividades clave en que se estructura la Programación Extrema (XP), según el tema?",
+    "options": [
+      { "id": "a", "text": "Planificación" },
+      { "id": "b", "text": "Diseño" },
+      { "id": "c", "text": "Codificación" },
+      { "id": "d", "text": "Pruebas" },
+      { "id": "e", "text": "Despliegue" }
+    ],
+    "correctAnswers": ["a", "b", "c", "d"],
+    "explanation": "XP se estructura en cuatro actividades clave: planificación, diseño, codificación y pruebas. El despliegue como actividad independiente no aparece en la descripción de XP del tema.",
+    "sourcePage": 45,
+    "tags": ["agil", "xp", "actividades"]
+  },
+  {
+    "id": "agile-019",
+    "topic": "agile",
+    "subtopic": "Contenido de la actividad de codificación en XP",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Qué incluye la actividad de «codificación» dentro de XP, según el tema?",
+    "options": [
+      { "id": "a", "text": "Código claro con programación en parejas para asegurar la calidad" },
+      { "id": "b", "text": "Comunicación continua para comprender y ajustar los requisitos del cliente" },
+      { "id": "c", "text": "Diseño evolutivo, flexible y sencillo, evitando complejidad innecesaria" },
+      { "id": "d", "text": "Pruebas automatizadas y desarrollo basado en pruebas (TDD)" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "La codificación en XP consiste en código claro con programación en parejas para asegurar la calidad. La opción b describe la planificación, la c el diseño, y la d las pruebas.",
+    "sourcePage": 45,
+    "tags": ["agil", "xp", "codificacion"]
+  },
+  {
+    "id": "agile-020",
+    "topic": "agile",
+    "subtopic": "Pruebas y TDD en XP",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué prácticas emplea XP en su actividad de pruebas, según el tema?",
+    "options": [
+      { "id": "a", "text": "Pruebas automatizadas y desarrollo basado en pruebas (TDD) para validar cada funcionalidad" },
+      { "id": "b", "text": "Pruebas manuales exclusivamente, realizadas por el cliente al final del proyecto" },
+      { "id": "c", "text": "Ninguna prueba, ya que la programación en parejas sustituye a las pruebas" },
+      { "id": "d", "text": "Auditorías externas contratadas específicamente para cada sprint" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "XP emplea pruebas automatizadas y desarrollo basado en pruebas (TDD) para validar cada funcionalidad, dentro de su actividad de pruebas.",
+    "sourcePage": 45,
+    "tags": ["agil", "xp", "pruebas", "tdd"]
+  },
+  {
+    "id": "agile-021",
+    "topic": "agile",
+    "subtopic": "Reconocimiento de la planificación de XP",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "En una actividad de planificación se trabaja con historias de usuario, valores y criterios de pruebas de aceptación mediante comunicación continua con el cliente. ¿A qué metodología ágil pertenece específicamente esta descripción, según el tema?",
+    "options": [
+      { "id": "a", "text": "Programación Extrema (XP)" },
+      { "id": "b", "text": "Scrum" },
+      { "id": "c", "text": "Kanban" },
+      { "id": "d", "text": "Proceso Unificado" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El diagrama de XP del tema sitúa las historias de usuario, los valores, los criterios de pruebas de aceptación y el plan de iteración dentro de su actividad de planificación, resultado de la comunicación continua con el cliente.",
+    "sourcePage": 45,
+    "tags": ["agil", "xp", "planificacion", "aplicacion-conceptual"]
+  },
+  {
+    "id": "agile-022",
+    "topic": "agile",
+    "subtopic": "Origen y objetivo de Kanban",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál es el origen y el objetivo principal de Kanban, según el tema?",
+    "options": [
+      { "id": "a", "text": "Se originó en Toyota, y su objetivo es mejorar la eficiencia y la productividad visualizando tareas y gestionando el flujo de trabajo de manera continua" },
+      { "id": "b", "text": "Se originó en Rational Software, y su objetivo es dirigir el desarrollo por casos de uso" },
+      { "id": "c", "text": "Se originó en el Manifiesto Ágil de 2001, y su objetivo es sustituir a Scrum en cualquier contexto" },
+      { "id": "d", "text": "Se originó en la industria automovilística alemana, y su objetivo es reducir el número de reuniones" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Kanban es un método ágil de gestión de proyectos y de flujo de trabajo originado en Toyota, cuyo objetivo es mejorar la eficiencia y la productividad visualizando tareas y gestionando el flujo de trabajo de manera continua.",
+    "sourcePage": 47,
+    "tags": ["agil", "kanban", "origen"]
+  },
+  {
+    "id": "agile-023",
+    "topic": "agile",
+    "subtopic": "Principios básicos de Kanban",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles son principios básicos de Kanban señalados en el tema?",
+    "options": [
+      { "id": "a", "text": "Visualizar el flujo de trabajo con un tablero dividido en columnas" },
+      { "id": "b", "text": "Limitar la cantidad de trabajo en progreso (WIP) en cada etapa" },
+      { "id": "c", "text": "Realizar sprints de duración fija de 30 días" },
+      { "id": "d", "text": "Hacer explícitas las políticas del proceso" },
+      { "id": "e", "text": "Mejora continua mediante retroalimentación" }
+    ],
+    "correctAnswers": ["a", "b", "d", "e"],
+    "explanation": "Los principios básicos de Kanban incluyen visualizar el flujo de trabajo, limitar el trabajo en progreso (WIP), gestionar el flujo para una entrega continua, hacer explícitas las políticas del proceso, la mejora continua mediante retroalimentación y los cambios colaborativos. Los sprints de duración fija son propios de Scrum: Kanban, de hecho, no requiere iteraciones ni sprints predefinidos.",
+    "sourcePage": 47,
+    "tags": ["agil", "kanban", "principios"]
+  },
+  {
+    "id": "agile-024",
+    "topic": "agile",
+    "subtopic": "Columnas del tablero Kanban",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Según el ejemplo de tablero Kanban del tema, ¿cuáles son las columnas principales que estructuran el flujo de trabajo?",
+    "options": [
+      { "id": "a", "text": "Pendientes, Seleccionados, Análisis, Desarrollo, Pruebas y Listo" },
+      { "id": "b", "text": "Por hacer, Haciendo y Hecho, únicamente" },
+      { "id": "c", "text": "Sprint backlog, Product backlog y Done" },
+      { "id": "d", "text": "Inicio, Elaboración, Construcción y Transición" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El ejemplo de tablero Kanban del tema estructura el flujo en las columnas Pendientes, Seleccionados, Análisis, Desarrollo, Pruebas y Listo, distinguiendo además subcolumnas «Haciendo»/«Hecho» dentro de Análisis y Desarrollo, e incluyendo un carril acelerado.",
+    "sourcePage": 48,
+    "tags": ["agil", "kanban", "tablero"]
+  },
+  {
+    "id": "agile-025",
+    "topic": "agile",
+    "subtopic": "Afirmación falsa sobre Kanban",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál de las siguientes afirmaciones sobre Kanban es FALSA según el tema?",
+    "options": [
+      { "id": "a", "text": "Kanban requiere sprints predefinidos de 30 días, igual que Scrum" },
+      { "id": "b", "text": "Kanban es más flexible que Scrum y se enfoca en la entrega continua" },
+      { "id": "c", "text": "Uno de sus principios es limitar el trabajo en progreso (WIP)" },
+      { "id": "d", "text": "Se originó en Toyota" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema afirma expresamente que, a diferencia de Scrum, Kanban no requiere iteraciones ni sprints predefinidos, por lo que la opción a es falsa.",
+    "sourcePage": 47,
+    "tags": ["agil", "kanban", "negativa"]
+  },
+  {
+    "id": "agile-026",
+    "topic": "agile",
+    "subtopic": "Reconocimiento de Kanban en un escenario",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Un equipo visualiza sus tareas en un tablero con columnas «Por hacer», «Haciendo» y «Hecho», no organiza el trabajo en sprints ni iteraciones de duración fija, y se centra en limitar cuántas tareas puede haber simultáneamente en curso. ¿Qué metodología ágil está aplicando este equipo?",
+    "options": [
+      { "id": "a", "text": "Kanban" },
+      { "id": "b", "text": "Scrum" },
+      { "id": "c", "text": "Extreme Programming (XP)" },
+      { "id": "d", "text": "Proceso Unificado" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "La ausencia de sprints o iteraciones de duración fija, el uso de un tablero de columnas y la limitación del trabajo en progreso son rasgos característicos de Kanban.",
+    "sourcePage": 47,
+    "tags": ["agil", "kanban", "aplicacion-conceptual"]
+  }
+]

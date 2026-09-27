@@ -1,0 +1,129 @@
+[
+  {
+    "id": "paradigms-001",
+    "topic": "paradigms",
+    "subtopic": "Definición de paradigma o modelo de desarrollo",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿Cómo se define un paradigma o modelo de desarrollo del software según el tema?",
+    "options": [
+      { "id": "a", "text": "Un conjunto de técnicas y métodos organizativos que optimizan la creación de soluciones informáticas" },
+      { "id": "b", "text": "Un lenguaje de programación específico para proyectos grandes" },
+      { "id": "c", "text": "Una herramienta de control de versiones" },
+      { "id": "d", "text": "Un estándar internacional exclusivo para el desarrollo ágil" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Los paradigmas o modelos de desarrollo se definen como el conjunto de técnicas y métodos organizativos que optimizan la creación de soluciones informáticas y estructuran los equipos de trabajo.",
+    "sourcePage": 14,
+    "tags": ["paradigmas", "definicion"]
+  },
+  {
+    "id": "paradigms-002",
+    "topic": "paradigms",
+    "subtopic": "Tradicional vs ágil",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál de las siguientes afirmaciones distingue correctamente a las metodologías tradicionales de las ágiles?",
+    "options": [
+      { "id": "a", "text": "Las tradicionales definen los requisitos de forma rígida al inicio y siguen un enfoque lineal, mientras que las ágiles añaden funcionalidades en ciclos cortos y permiten ajustar requisitos durante el desarrollo" },
+      { "id": "b", "text": "Las tradicionales permiten que el cliente ajuste los requisitos durante el desarrollo, mientras que las ágiles los fijan al inicio del proyecto" },
+      { "id": "c", "text": "Ambas metodologías tienen un enfoque idéntico, solo cambia el lenguaje de programación utilizado" },
+      { "id": "d", "text": "Las metodologías ágiles no permiten la colaboración constante entre el equipo y el cliente" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Las metodologías tradicionales definen requisitos de forma rígida al inicio con un enfoque lineal y secuencial, mientras que las ágiles trabajan de forma incremental en ciclos cortos con participación continua del cliente.",
+    "sourcePage": 15,
+    "tags": ["paradigmas", "tradicional", "agil", "distincion"]
+  },
+  {
+    "id": "paradigms-003",
+    "topic": "paradigms",
+    "subtopic": "Características de las metodologías ágiles",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes son características propias de las metodologías ágiles según el tema?",
+    "options": [
+      { "id": "a", "text": "Equipos autosuficientes y colaboración constante" },
+      { "id": "b", "text": "El cliente participa en el proceso, ajustando requisitos durante el desarrollo" },
+      { "id": "c", "text": "Enfoque lineal y secuencial, sin retrocesos" },
+      { "id": "d", "text": "Enfoque incremental, añadiendo funcionalidades en ciclos cortos" },
+      { "id": "e", "text": "Dificultad para adaptarse a cambios" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "Las metodologías ágiles se caracterizan por equipos autosuficientes con colaboración constante, participación del cliente ajustando requisitos, y un enfoque incremental en ciclos cortos. El enfoque lineal sin retrocesos y la dificultad para adaptarse a cambios son rasgos de las metodologías tradicionales.",
+    "sourcePage": 15,
+    "tags": ["paradigmas", "agil", "caracteristicas"]
+  },
+  {
+    "id": "paradigms-004",
+    "topic": "paradigms",
+    "subtopic": "Factores clave de los paradigmas de desarrollo",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Según el tema, ¿cuáles son los factores clave que influyen en la elección de un paradigma o modelo de desarrollo?",
+    "options": [
+      { "id": "a", "text": "Costes, planificación, complejidad, recursos y lenguajes de programación" },
+      { "id": "b", "text": "Presupuesto, plazos legales, número de servidores y proveedor de hosting" },
+      { "id": "c", "text": "Exclusivamente el tamaño del equipo de desarrollo" },
+      { "id": "d", "text": "El sistema operativo utilizado por el cliente final" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala como factores clave de los paradigmas de desarrollo los costes, la planificación, la complejidad, los recursos y los lenguajes de programación.",
+    "sourcePage": 14,
+    "tags": ["paradigmas", "factores-clave"]
+  },
+  {
+    "id": "paradigms-005",
+    "topic": "paradigms",
+    "subtopic": "Consecuencias de no seguir una metodología clara",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué puede ocurrir, según el tema, cuando un proyecto de software no sigue una metodología clara?",
+    "options": [
+      { "id": "a", "text": "Puede sufrir retrasos, errores y baja calidad" },
+      { "id": "b", "text": "El proyecto siempre se completa más rápido al no tener restricciones de proceso" },
+      { "id": "c", "text": "Se reduce automáticamente el coste total del desarrollo" },
+      { "id": "d", "text": "Se elimina la necesidad de realizar pruebas de aceptación" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema advierte de que, sin una metodología clara, los proyectos pueden sufrir retrasos, errores y baja calidad; una metodología adecuada, en cambio, agiliza el proceso y mejora el resultado final.",
+    "sourcePage": 14,
+    "tags": ["paradigmas", "metodologia"]
+  },
+  {
+    "id": "paradigms-006",
+    "topic": "paradigms",
+    "subtopic": "Comparación de flujos tradicional vs ágil",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el esquema comparativo del tema, ¿cuál es la diferencia principal entre el flujo de las metodologías tradicionales y el de las ágiles antes de la puesta en marcha?",
+    "options": [
+      { "id": "a", "text": "Las tradicionales siguen pasos secuenciales fijos (planteamiento, análisis, diseño, programación, pruebas), mientras que las ágiles, tras el planteamiento y los requerimientos priorizados, repiten un ciclo de iteración" },
+      { "id": "b", "text": "Las tradicionales no incluyen ninguna fase de planteamiento inicial y las ágiles sí" },
+      { "id": "c", "text": "Ambas siguen exactamente el mismo número de pasos secuenciales, solo cambia el nombre de cada fase" },
+      { "id": "d", "text": "Las metodologías ágiles no llegan nunca a una puesta en marcha, solo iteran indefinidamente" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El esquema del tema muestra que las metodologías tradicionales avanzan por pasos secuenciales fijos (planteamiento, análisis, diseño, programación, pruebas) hasta la puesta en marcha, mientras que las ágiles, tras el planteamiento y unos requerimientos priorizados, repiten un ciclo de iteración antes de llegar también a la puesta en marcha.",
+    "sourcePage": 16,
+    "tags": ["paradigmas", "tradicional", "agil", "flujo"]
+  },
+  {
+    "id": "paradigms-007",
+    "topic": "paradigms",
+    "subtopic": "Características que NO son de las metodologías tradicionales",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál de las siguientes NO es una característica de las metodologías tradicionales según el tema?",
+    "options": [
+      { "id": "a", "text": "Definen los requisitos de forma rígida al inicio" },
+      { "id": "b", "text": "Siguen un enfoque lineal y secuencial, sin retrocesos" },
+      { "id": "c", "text": "El cliente participa en el proceso, ajustando requisitos durante el desarrollo" },
+      { "id": "d", "text": "Tienen dificultad para adaptarse a cambios" }
+    ],
+    "correctAnswers": ["c"],
+    "explanation": "La participación del cliente ajustando requisitos durante el desarrollo es una característica de las metodologías ágiles, no de las tradicionales, que fijan los requisitos de forma rígida al inicio.",
+    "sourcePage": 15,
+    "tags": ["paradigmas", "tradicional", "negativa"]
+  }
+]

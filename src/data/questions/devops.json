@@ -1,0 +1,238 @@
+[
+  {
+    "id": "devops-001",
+    "topic": "devops",
+    "subtopic": "Definición de DevOps",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿Qué es DevOps según el tema?",
+    "options": [
+      { "id": "a", "text": "Una cultura de trabajo que combina principios, prácticas y herramientas para reducir el tiempo entre la concepción de una funcionalidad y su despliegue, sin sacrificar calidad, estabilidad y seguridad" },
+      { "id": "b", "text": "Un modelo de ciclo de vida secuencial para el desarrollo de software" },
+      { "id": "c", "text": "Un método ágil basado exclusivamente en sprints de 30 días" },
+      { "id": "d", "text": "Una herramienta específica de control de versiones" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "DevOps se define como una cultura de trabajo que combina principios, prácticas y herramientas, reduciendo el tiempo entre la concepción de una funcionalidad y su despliegue, y garantizando calidad, estabilidad y seguridad sin sacrificar rapidez.",
+    "sourcePage": 51,
+    "tags": ["devops", "definicion"]
+  },
+  {
+    "id": "devops-002",
+    "topic": "devops",
+    "subtopic": "Integración continua frente a entrega continua",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Dentro del flujo típico de DevOps, ¿cuál es la diferencia entre CI (Integración Continua) y CD (Entrega Continua)?",
+    "options": [
+      { "id": "a", "text": "CI construye, prueba y valida automáticamente cada cambio de código, mientras que CD permite desplegar esos cambios en entornos de prueba o producción con mínima intervención" },
+      { "id": "b", "text": "CI se refiere al despliegue en producción y CD a la escritura de pruebas unitarias" },
+      { "id": "c", "text": "CI y CD son sinónimos y ambos describen únicamente la fase de codificación" },
+      { "id": "d", "text": "CD ocurre antes que CI en el flujo de trabajo de DevOps" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "En el flujo DevOps típico, la integración continua (CI) implica que cada cambio de código se construye, prueba y valida automáticamente, mientras que la entrega continua (CD) permite desplegar esos cambios en entornos de prueba o producción con mínima intervención.",
+    "sourcePage": 54,
+    "tags": ["devops", "integracion-continua", "entrega-continua"]
+  },
+  {
+    "id": "devops-003",
+    "topic": "devops",
+    "subtopic": "Beneficios de DevOps con Integración Continua",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de los siguientes son beneficios de implementar DevOps con Integración Continua según el tema?",
+    "options": [
+      { "id": "a", "text": "Detección temprana de errores" },
+      { "id": "b", "text": "Mejor calidad del software mediante pruebas automatizadas" },
+      { "id": "c", "text": "Eliminación total de la necesidad de pruebas manuales en cualquier contexto" },
+      { "id": "d", "text": "Reducción de riesgos gracias a despliegues frecuentes y pequeños" },
+      { "id": "e", "text": "Sustitución completa del equipo de operaciones por herramientas automáticas" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "Entre los beneficios señalados están la detección temprana de errores, la mejora de la calidad mediante pruebas automatizadas, la mayor productividad, el feedback rápido, la reducción de riesgos con despliegues frecuentes y pequeños, y la satisfacción del cliente. El tema no afirma que se elimine toda prueba manual ni que se sustituya al equipo de operaciones.",
+    "sourcePage": 55,
+    "tags": ["devops", "beneficios", "integracion-continua"]
+  },
+  {
+    "id": "devops-004",
+    "topic": "devops",
+    "subtopic": "Problema tradicional que resuelve DevOps",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué problema tradicional plantea el tema como motivación para la aparición de DevOps?",
+    "options": [
+      { "id": "a", "text": "El desarrollo y las operaciones estaban separados, generando cuellos de botella, retrasos y conflictos" },
+      { "id": "b", "text": "La falta de lenguajes de programación orientados a objetos" },
+      { "id": "c", "text": "La ausencia de modelos ágiles antes del año 2001" },
+      { "id": "d", "text": "El exceso de automatización en las pruebas unitarias" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema plantea que, tradicionalmente, desarrollo y operaciones estaban separados, lo que generaba cuellos de botella, retrasos y conflictos; DevOps se plantea como solución integrando ambos y fomentando colaboración y automatización.",
+    "sourcePage": 50,
+    "tags": ["devops", "contexto"]
+  },
+  {
+    "id": "devops-005",
+    "topic": "devops",
+    "subtopic": "Principios clave de DevOps",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles son los principios clave de DevOps señalados en el tema?",
+    "options": [
+      { "id": "a", "text": "Colaboración" },
+      { "id": "b", "text": "Automatización" },
+      { "id": "c", "text": "Entrega frecuente" },
+      { "id": "d", "text": "Monitorización y mejora continua" },
+      { "id": "e", "text": "Programación en parejas" }
+    ],
+    "correctAnswers": ["a", "b", "c", "d"],
+    "explanation": "Los principios clave de DevOps señalados en el tema son colaboración, automatización, entrega frecuente, y monitorización y mejora continua. La programación en parejas es una práctica de XP, no un principio de DevOps.",
+    "sourcePage": 51,
+    "tags": ["devops", "principios"]
+  },
+  {
+    "id": "devops-006",
+    "topic": "devops",
+    "subtopic": "Ciclo de vida DevOps: lado Ops",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el diagrama del ciclo de vida de DevOps del tema (representado como un bucle infinito), ¿cuál de las siguientes fases pertenece al lado «Ops», y no al lado «Dev», del ciclo?",
+    "options": [
+      { "id": "a", "text": "Monitorizar" },
+      { "id": "b", "text": "Código" },
+      { "id": "c", "text": "Construir" },
+      { "id": "d", "text": "Prueba" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El ciclo de vida DevOps del tema representa en el lado «Dev» las fases de plan, código, construir y prueba, y en el lado «Ops» las fases de desplegar, operar y monitorizar, unidas por la fase de lanzamiento.",
+    "sourcePage": 52,
+    "tags": ["devops", "ciclo-de-vida"]
+  },
+  {
+    "id": "devops-007",
+    "topic": "devops",
+    "subtopic": "Definición de Integración Continua",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Qué es la Integración Continua (CI), según el tema?",
+    "options": [
+      { "id": "a", "text": "Una práctica de desarrollo que integra frecuentemente el trabajo de todos los desarrolladores en un repositorio compartido, activando automáticamente un proceso de construcción del sistema" },
+      { "id": "b", "text": "Un proceso manual que se ejecuta una única vez al finalizar el proyecto" },
+      { "id": "c", "text": "Una fase exclusiva del modelo en cascada" },
+      { "id": "d", "text": "Un conjunto de reuniones diarias de 15 minutos entre desarrolladores" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "La Integración Continua es una práctica de desarrollo que integra frecuentemente el trabajo de todos los desarrolladores en un repositorio compartido, activando automáticamente un proceso de construcción del sistema.",
+    "sourcePage": 53,
+    "tags": ["devops", "integracion-continua", "definicion"]
+  },
+  {
+    "id": "devops-008",
+    "topic": "devops",
+    "subtopic": "Qué incluye el proceso de CI",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Qué incluye el proceso de Integración Continua (CI), según el tema?",
+    "options": [
+      { "id": "a", "text": "Compilación del código fuente" },
+      { "id": "b", "text": "Ejecución de pruebas automatizadas" },
+      { "id": "c", "text": "Validación de calidad y detección temprana de errores" },
+      { "id": "d", "text": "Despliegue automático directo a producción sin ninguna validación previa" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "El proceso de CI incluye la compilación del código fuente, la ejecución de pruebas automatizadas y la validación de calidad con detección temprana de errores. El despliegue directo a producción sin validación contradice el propio propósito de CI.",
+    "sourcePage": 53,
+    "tags": ["devops", "integracion-continua", "proceso"]
+  },
+  {
+    "id": "devops-009",
+    "topic": "devops",
+    "subtopic": "Efecto de la detección temprana sobre el coste",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el tema, ¿qué consecuencia tiene la identificación inmediata de problemas de compatibilidad y errores mediante CI?",
+    "options": [
+      { "id": "a", "text": "Una reducción drástica del coste y el esfuerzo de corrección" },
+      { "id": "b", "text": "Un aumento del coste total del proyecto debido a las validaciones adicionales" },
+      { "id": "c", "text": "La eliminación completa de la necesidad de control de versiones" },
+      { "id": "d", "text": "Ninguna consecuencia relevante sobre el coste del proyecto" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema indica que la identificación inmediata de problemas de compatibilidad y errores mediante CI produce una reducción drástica del coste y el esfuerzo de corrección.",
+    "sourcePage": 53,
+    "tags": ["devops", "integracion-continua", "coste"]
+  },
+  {
+    "id": "devops-010",
+    "topic": "devops",
+    "subtopic": "Relación entre DevOps y CI",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Cuál es la relación entre DevOps y la Integración Continua (CI), según el tema?",
+    "options": [
+      { "id": "a", "text": "CI es un elemento clave dentro de DevOps: DevOps impulsa un cambio cultural y organizativo, mientras que CI proporciona el mecanismo técnico que hace sostenibles las prácticas de integración y despliegue" },
+      { "id": "b", "text": "DevOps y CI son sinónimos exactos y siempre se usan indistintamente" },
+      { "id": "c", "text": "CI es un marco de gestión de proyectos que sustituye completamente a DevOps" },
+      { "id": "d", "text": "DevOps es una herramienta técnica y CI es la cultura organizativa que la sustenta" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema explica que la integración continua (CI) es un elemento clave dentro de DevOps: DevOps impulsa un cambio cultural y organizativo, mientras que CI proporciona el mecanismo técnico que hace sostenibles las prácticas de integración y despliegue. La opción d invierte los papeles de ambos conceptos.",
+    "sourcePage": 54,
+    "tags": ["devops", "integracion-continua", "relacion"]
+  },
+  {
+    "id": "devops-011",
+    "topic": "devops",
+    "subtopic": "Beneficio que NO se menciona",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál de los siguientes NO se menciona en el tema como un beneficio de implementar DevOps con Integración Continua?",
+    "options": [
+      { "id": "a", "text": "Eliminación total y permanente de cualquier necesidad de intervención humana en el despliegue" },
+      { "id": "b", "text": "Detección temprana de errores" },
+      { "id": "c", "text": "Mayor productividad al eliminar tareas repetitivas" },
+      { "id": "d", "text": "Reducción de riesgos gracias a despliegues frecuentes y pequeños" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema nunca afirma que se elimine toda intervención humana en el despliegue; sí menciona la entrega continua con mínima intervención, lo cual no equivale a su eliminación total y permanente.",
+    "sourcePage": 55,
+    "tags": ["devops", "beneficios", "negativa"]
+  },
+  {
+    "id": "devops-012",
+    "topic": "devops",
+    "subtopic": "Ciclo de vida DevOps: lado Dev",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "Según el ciclo de vida de DevOps representado en el tema, ¿qué fases forman el lado «Dev» del ciclo?",
+    "options": [
+      { "id": "a", "text": "Plan, Código, Construir y Prueba" },
+      { "id": "b", "text": "Desplegar, Operar y Monitorizar" },
+      { "id": "c", "text": "Planificación, Análisis de riesgo, Ingeniería y Evaluación" },
+      { "id": "d", "text": "Comunicación, Planificación, Modelado, Construcción y Despliegue" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El lado «Dev» del ciclo de vida DevOps está formado por plan, código, construir y prueba; el lado «Ops» incluye desplegar, operar y monitorizar. La opción d corresponde a las cinco actividades principales del proceso de desarrollo de software vistas en otro bloque del tema, y no debe confundirse con el ciclo DevOps.",
+    "sourcePage": 52,
+    "tags": ["devops", "ciclo-de-vida"]
+  },
+  {
+    "id": "devops-013",
+    "topic": "devops",
+    "subtopic": "Feedback rápido como beneficio",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿Cuál de los siguientes es un beneficio de DevOps con Integración Continua relacionado con la velocidad de respuesta ante cambios, según el tema?",
+    "options": [
+      { "id": "a", "text": "Feedback rápido: información inmediata sobre los cambios realizados" },
+      { "id": "b", "text": "Aumento del número de reuniones presenciales obligatorias" },
+      { "id": "c", "text": "Reducción del número de despliegues realizados" },
+      { "id": "d", "text": "Eliminación de la fase de pruebas" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "Entre los beneficios de DevOps con CI, el tema menciona el feedback rápido, es decir, información inmediata sobre los cambios realizados.",
+    "sourcePage": 55,
+    "tags": ["devops", "beneficios"]
+  }
+]

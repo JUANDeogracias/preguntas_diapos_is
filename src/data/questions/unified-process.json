@@ -1,0 +1,220 @@
+[
+  {
+    "id": "unified-process-001",
+    "topic": "unified-process",
+    "subtopic": "Origen del Proceso Unificado",
+    "difficulty": "easy",
+    "type": "single-choice",
+    "question": "¿Qué empresa propuso el Proceso Unificado de Desarrollo?",
+    "options": [
+      { "id": "a", "text": "Rational Software (actualmente parte de IBM)" },
+      { "id": "b", "text": "Toyota" },
+      { "id": "c", "text": "Microsoft" },
+      { "id": "d", "text": "El grupo de autores del Manifiesto Ágil" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El Proceso Unificado fue propuesto por la empresa Rational Software, actualmente parte de IBM, e integra enfoques tradicionales y ágiles.",
+    "sourcePage": 33,
+    "tags": ["proceso-unificado", "origen"]
+  },
+  {
+    "id": "unified-process-002",
+    "topic": "unified-process",
+    "subtopic": "Fases del Proceso Unificado",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "¿Cuál es el orden correcto de las cuatro fases del Proceso Unificado de Desarrollo?",
+    "options": [
+      { "id": "a", "text": "Inicio, Elaboración, Construcción, Transición" },
+      { "id": "b", "text": "Elaboración, Inicio, Transición, Construcción" },
+      { "id": "c", "text": "Planificación, Análisis de riesgo, Ingeniería, Evaluación" },
+      { "id": "d", "text": "Requisitos, Análisis, Diseño, Implementación" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El Proceso Unificado se organiza en cuatro fases en este orden: Inicio (definición del producto y análisis de negocio), Elaboración (detalle de casos de uso y arquitectura), Construcción (desarrollo del producto) y Transición (versión beta, pruebas y soporte).",
+    "sourcePage": 35,
+    "tags": ["proceso-unificado", "fases"]
+  },
+  {
+    "id": "unified-process-003",
+    "topic": "unified-process",
+    "subtopic": "Prácticas fundamentales del Proceso Unificado (I)",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes son prácticas fundamentales del Proceso Unificado señaladas en el tema?",
+    "options": [
+      { "id": "a", "text": "Desarrollo iterativo e incremental" },
+      { "id": "b", "text": "Gestión de los requisitos mediante casos de uso" },
+      { "id": "c", "text": "Uso de modelos visuales (UML)" },
+      { "id": "d", "text": "Programación en parejas" },
+      { "id": "e", "text": "Tablero visual con límite de trabajo en progreso (WIP)" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "Las prácticas fundamentales del Proceso Unificado incluyen el desarrollo iterativo e incremental, la gestión de requisitos mediante casos de uso, las arquitecturas basadas en componentes, el uso de modelos visuales (UML), la verificación de la calidad en todas las etapas y el control de cambios. La programación en parejas es propia de XP, y el tablero con límite de WIP es propio de Kanban.",
+    "sourcePage": 34,
+    "tags": ["proceso-unificado", "practicas-fundamentales"]
+  },
+  {
+    "id": "unified-process-004",
+    "topic": "unified-process",
+    "subtopic": "Características del Proceso Unificado",
+    "difficulty": "medium",
+    "type": "multiple-choice",
+    "question": "¿Cuáles de las siguientes son características del Proceso Unificado de Desarrollo, según el tema?",
+    "options": [
+      { "id": "a", "text": "Configurabilidad: es adaptable a diferentes contextos" },
+      { "id": "b", "text": "Ciclos cortos que permiten adaptación continua" },
+      { "id": "c", "text": "Es más flexible que cualquier metodología ágil pura como Scrum o XP" },
+      { "id": "d", "text": "Integra enfoques tradicionales y ágiles, en un punto intermedio entre ambos" }
+    ],
+    "correctAnswers": ["a", "b", "d"],
+    "explanation": "El tema describe el Proceso Unificado como configurable, con ciclos cortos que permiten adaptación continua, e integrador de enfoques tradicionales y ágiles. La opción c es falsa: el propio tema indica que es más rígido que metodologías ágiles puras como Scrum o XP, aunque acepta retroalimentación y cambios.",
+    "sourcePage": 33,
+    "tags": ["proceso-unificado", "caracteristicas"]
+  },
+  {
+    "id": "unified-process-005",
+    "topic": "unified-process",
+    "subtopic": "Fase de Inicio",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Qué se realiza principalmente durante la fase de Inicio del Proceso Unificado?",
+    "options": [
+      { "id": "a", "text": "Definición del producto y análisis de negocio, identificando funciones principales, usuarios, arquitectura y plan del proyecto" },
+      { "id": "b", "text": "Detalle de casos de uso y diseño de la arquitectura, planificando actividades y estimando recursos" },
+      { "id": "c", "text": "Desarrollo del producto integrando software en la arquitectura, completando los casos de uso" },
+      { "id": "d", "text": "Conversión a versión beta, pruebas de usuario y corrección de defectos" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "En la fase de Inicio se define el producto y se analiza el negocio, identificando funciones principales, usuarios, arquitectura y el plan del proyecto. Las opciones b, c y d corresponden respectivamente a las fases de Elaboración, Construcción y Transición.",
+    "sourcePage": 35,
+    "tags": ["proceso-unificado", "fase-inicio"]
+  },
+  {
+    "id": "unified-process-006",
+    "topic": "unified-process",
+    "subtopic": "Fase de Elaboración",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Qué caracteriza a la fase de Elaboración del Proceso Unificado?",
+    "options": [
+      { "id": "a", "text": "El detalle de los casos de uso y el diseño de la arquitectura, planificando actividades y estimando recursos" },
+      { "id": "b", "text": "La definición del producto y el análisis de negocio inicial" },
+      { "id": "c", "text": "La conversión del producto a una versión beta para pruebas de usuario" },
+      { "id": "d", "text": "La formación y el soporte al usuario final" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "En la fase de Elaboración se detallan los casos de uso y se diseña la arquitectura, planificando actividades y estimando recursos. Las opciones b y c corresponden a Inicio y Transición respectivamente.",
+    "sourcePage": 35,
+    "tags": ["proceso-unificado", "fase-elaboracion"]
+  },
+  {
+    "id": "unified-process-007",
+    "topic": "unified-process",
+    "subtopic": "Fase de Construcción",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Qué ocurre durante la fase de Construcción del Proceso Unificado?",
+    "options": [
+      { "id": "a", "text": "Se desarrolla el producto integrando software en la arquitectura y se completan los casos de uso, aunque pueden existir defectos" },
+      { "id": "b", "text": "Se identifican por primera vez las funciones principales del sistema y sus usuarios" },
+      { "id": "c", "text": "Se realiza exclusivamente la formación del personal que usará el sistema" },
+      { "id": "d", "text": "Se corrigen todos los defectos detectados durante la fase de Inicio" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "En la fase de Construcción se desarrolla el producto integrando software en la arquitectura y se completan los casos de uso, aunque todavía pueden existir defectos, que se abordan en la fase posterior de Transición.",
+    "sourcePage": 35,
+    "tags": ["proceso-unificado", "fase-construccion"]
+  },
+  {
+    "id": "unified-process-008",
+    "topic": "unified-process",
+    "subtopic": "Fase de Transición",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "¿Qué actividades incluye la fase de Transición del Proceso Unificado?",
+    "options": [
+      { "id": "a", "text": "Conversión a versión beta, pruebas de usuario, corrección de defectos, formación y soporte al usuario" },
+      { "id": "b", "text": "Identificación de la arquitectura inicial y elaboración del plan del proyecto" },
+      { "id": "c", "text": "Estimación de recursos y planificación de actividades para el detalle de casos de uso" },
+      { "id": "d", "text": "Integración inicial del software dentro de la arquitectura definida" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "La fase de Transición incluye la conversión a versión beta, las pruebas de usuario, la corrección de defectos, la formación y el soporte al usuario.",
+    "sourcePage": 35,
+    "tags": ["proceso-unificado", "fase-transicion"]
+  },
+  {
+    "id": "unified-process-009",
+    "topic": "unified-process",
+    "subtopic": "Descomposición temporal frente a de actividades",
+    "difficulty": "medium",
+    "type": "single-choice",
+    "question": "El Proceso Unificado organiza su estructura en dos tipos de descomposición. ¿Cuáles son, según el tema?",
+    "options": [
+      { "id": "a", "text": "Descomposición temporal (organizada en fases) y descomposición de actividades (desglosada en tareas específicas)" },
+      { "id": "b", "text": "Descomposición funcional y descomposición orientada a objetos" },
+      { "id": "c", "text": "Descomposición en sprints y descomposición en historias de usuario" },
+      { "id": "d", "text": "Descomposición en procesos primarios y procesos de soporte" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El tema señala que la estructura del Proceso Unificado incluye una descomposición temporal, organizada en fases, y una descomposición de actividades, desglosada en tareas específicas; además, define roles y tareas para cada persona involucrada.",
+    "sourcePage": 34,
+    "tags": ["proceso-unificado", "estructura"]
+  },
+  {
+    "id": "unified-process-010",
+    "topic": "unified-process",
+    "subtopic": "Prácticas fundamentales del Proceso Unificado (II)",
+    "difficulty": "hard",
+    "type": "multiple-choice",
+    "question": "Además del desarrollo iterativo e incremental, la gestión de requisitos mediante casos de uso y el uso de modelos visuales (UML), ¿qué otras prácticas fundamentales del Proceso Unificado señala el tema?",
+    "options": [
+      { "id": "a", "text": "Arquitecturas basadas en componentes, con subsistemas de funciones claras" },
+      { "id": "b", "text": "Verificación de la calidad del software en todas las etapas" },
+      { "id": "c", "text": "Control de los cambios al software" },
+      { "id": "d", "text": "Programación por parejas" },
+      { "id": "e", "text": "Sprints de duración fija de 30 días" }
+    ],
+    "correctAnswers": ["a", "b", "c"],
+    "explanation": "Las seis prácticas fundamentales del Proceso Unificado son: desarrollo iterativo e incremental, gestión de requisitos mediante casos de uso, arquitecturas basadas en componentes, uso de modelos visuales (UML), verificación de la calidad en todas las etapas y control de los cambios al software. La programación por parejas es de XP, y los sprints de duración fija son de Scrum.",
+    "sourcePage": 34,
+    "tags": ["proceso-unificado", "practicas-fundamentales"]
+  },
+  {
+    "id": "unified-process-011",
+    "topic": "unified-process",
+    "subtopic": "Reconocimiento del Proceso Unificado en un escenario",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Un equipo entrega el sistema dividido en fases claramente delimitadas (Inicio, Elaboración, Construcción, Transición), cada una compuesta por varias iteraciones, modela el sistema con UML y define los requisitos mediante casos de uso. ¿Qué marco de desarrollo está siguiendo este equipo?",
+    "options": [
+      { "id": "a", "text": "Proceso Unificado de Desarrollo" },
+      { "id": "b", "text": "Kanban" },
+      { "id": "c", "text": "Modelo en cascada" },
+      { "id": "d", "text": "Extreme Programming (XP)" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "La combinación de fases (Inicio, Elaboración, Construcción, Transición) organizadas en iteraciones, el modelado con UML y la gestión de requisitos mediante casos de uso son rasgos característicos del Proceso Unificado de Desarrollo.",
+    "sourcePage": 33,
+    "tags": ["proceso-unificado", "aplicacion-conceptual"]
+  },
+  {
+    "id": "unified-process-012",
+    "topic": "unified-process",
+    "subtopic": "Intensidad de la implementación por fases",
+    "difficulty": "hard",
+    "type": "single-choice",
+    "question": "Según el diagrama de flujos de trabajo fundamentales del Proceso Unificado, ¿en qué fase alcanza su mayor intensidad la actividad de «Implementación»?",
+    "options": [
+      { "id": "a", "text": "Construcción" },
+      { "id": "b", "text": "Inicio" },
+      { "id": "c", "text": "Elaboración" },
+      { "id": "d", "text": "Transición" }
+    ],
+    "correctAnswers": ["a"],
+    "explanation": "El diagrama del tema muestra que la actividad de Implementación alcanza su mayor intensidad durante la fase de Construcción, de forma análoga a como los Requisitos predominan en Inicio y el Diseño en Elaboración.",
+    "sourcePage": 36,
+    "tags": ["proceso-unificado", "flujos-de-trabajo"]
+  }
+]
